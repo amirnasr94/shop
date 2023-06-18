@@ -1,9 +1,16 @@
+import {Helmet} from "react-helmet";
+import MainLayout from "../layout/MainLayout"
+import ShopHeader from "./components/ShopHeader";
+
 const App = () => {
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <MainLayout>
+        <Helmet>
+          <title>Shop</title>
+        </Helmet>
+        <ShopHeader/>
+      </MainLayout>
     </>
   )
 }
