@@ -27,7 +27,7 @@ const cartSlice = createSlice({
             }
             localStorage.setItem("cartProduct",JSON.stringify(state.cartproduct));
         },
-        computedTotal(state,action){
+        computedTotal(state){
             // eslint-disable-next-line prefer-const
             let {total,qty} = state.cartproduct.reduce((cartTotal,cartItem) => {
                 const {price,cartQty} = cartItem;
@@ -46,5 +46,5 @@ const cartSlice = createSlice({
     }
 })
 
-export default cartSlice.reducer;
 export const {addToCart,computedTotal} = cartSlice.actions;
+export default cartSlice.reducer;
