@@ -1,5 +1,5 @@
 import {createSlice,createAsyncThunk,createEntityAdapter,EntityState} from "@reduxjs/toolkit";
-import { Product,ProductTools } from "../../constants/modal";
+import { Product,ProductTools, RootState } from "../../constants/modal";
 import axios from "axios";
 
 export const fetchProduct = createAsyncThunk("products/fetchProduct",async () => {
@@ -44,4 +44,12 @@ const productsSlice = createSlice({
 });
 
 
+export const {
+    selectAll,
+    selectById,
+    selectIds,
+} = productAdaptor.getSelectors<RootState>(state => state.products);
+
+
 export default productsSlice.reducer;
+
