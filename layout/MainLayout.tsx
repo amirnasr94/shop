@@ -9,7 +9,7 @@ const MainLayout:FC<Props> = ({children}) => {
   return (
     <div className="flex flex-col min-h-screen">
         <Navbar/>
-        <main>{children}</main>
+        <main className="w-full h-full">{children}</main>
     </div>
   )
 }
