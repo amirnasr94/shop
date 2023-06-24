@@ -1,6 +1,6 @@
 import { useAppSelector } from "../hooks/customHooks";
 import { selectAll } from "../redux/reduxReducer/productSlice"
-import SingleProduct from "./Product";
+import SingleProduct from "./SingleProduct";
 
 const Shop = () => {
     const allProduct = useAppSelector(selectAll);
