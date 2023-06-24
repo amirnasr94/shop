@@ -15,7 +15,7 @@ const Shop = () => {
                 {
                     status === "pending" ? (
                         <div>
-
+                            <h3>Loading...</h3>   
                         </div>
                     ) : status === "succeeded" ? (
                         <div className="bg-white">
@@ -30,7 +30,9 @@ const Shop = () => {
                         </div>
 
                     ) : (
-                        <div></div>
+                        <div>
+                            <h3>sorry! we have a problem.</h3>
+                        </div>
                     )
                 }
             </article>
