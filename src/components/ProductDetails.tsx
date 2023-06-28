@@ -1,14 +1,22 @@
-import {useParams} from "react-router-dom";
-import { useAppSelector } from "../hooks/customHooks";
+import {useNavigate, useParams} from "react-router-dom";
+import { useAppDispatch, useAppSelector } from "../hooks/customHooks";
 import { selectById } from "../redux/reduxReducer/productSlice";
 import { Helmet } from "react-helmet";
 import {Link} from 'react-router-dom';
-import NumberOfProductForm from "./NumberOfProductForm";
+import { Product } from "../constants/modal";
+import { addToCart } from "../redux/reduxReducer/cartSlice";
 
 const ProductDetails = () => {
   const {productID} = useParams();
   
   const product = useAppSelector(state => selectById(state,productID as string))
+  const dispatch = useAppDispatch();
+  const navigate = useNavigate()
+
+  const handleAddToCart = (item:Product) => {
+      dispatch(addToCart(item));
+      navigate("/cart")
+  }
   console.log(product);
   
   return (
@@ -117,7 +125,8 @@ const ProductDetails = () => {
 
                   <button type="submit" className="mt-6 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add to bag</button>
                 </form> */}
-                <NumberOfProductForm pro={product}/>
+                <p className="text-green-900">The product is available!</p>
+                <button className="mt-1 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" onClick={() => handleAddToCart({...product,cartQty:1})}>Add To Cart</button>
                 <Link to="/" className="mt-1 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Back To Shop</Link>
               </section>
             </div>
