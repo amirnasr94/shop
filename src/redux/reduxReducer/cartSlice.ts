@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, current } from '@reduxjs/toolkit';
 import { CartProducts,Product } from '../../constants/modal';
 
 const initialState:CartProducts = {
@@ -12,6 +12,8 @@ const cartSlice = createSlice({
     initialState,
     reducers:{
         addToCart(state,action){
+            console.log(current(state));
+            
             const exsIndexProduct:number = state.cartproduct.findIndex((item) => item.id === action.payload.id);
             if (exsIndexProduct >= 0) {
                 state.cartproduct[exsIndexProduct] = {
@@ -42,9 +44,17 @@ const cartSlice = createSlice({
             total = parseFloat(total.toFixed());
             state.cartTotalQty = qty;
             state.cartTotalAmount = total;
+        },
+        decreaseNumProduct(state,action){
+            //
+        },
+        deletFromCart(state,action){
+            const newCartProduct = state.cartproduct.filter(item => item.id !== action.payload);
+            state.cartproduct = newCartProduct;
+            localStorage.setItem("cartProduct",JSON.stringify(state.cartproduct));
         }
     }
 })
 
-export const {addToCart,computedTotal} = cartSlice.actions;
+export const {addToCart,computedTotal,deletFromCart,decreaseNumProduct} = cartSlice.actions;
 export default cartSlice.reducer;
