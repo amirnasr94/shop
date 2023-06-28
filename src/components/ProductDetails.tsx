@@ -11,12 +11,12 @@ const ProductDetails = () => {
   
   const product = useAppSelector(state => selectById(state,productID as string))
   const dispatch = useAppDispatch();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleAddToCart = (item:Product) => {
       dispatch(addToCart(item));
       navigate("/cart")
-  }
+  };
   console.log(product);
   
   return (
@@ -36,10 +36,8 @@ const ProductDetails = () => {
                 <h3 id="information-heading">{product.description}</h3>
                 <p className="text-2xl text-gray-900">${product.price}</p>
               </section>
-
               <section aria-labelledby="options-heading" className="mt-10">
                 <h3 id="options-heading" className="sr-only">Product options</h3>
-
                 {/* <form>
                   <div>
                     <h4 className="text-sm font-medium text-gray-900">Color</h4>
@@ -126,7 +124,7 @@ const ProductDetails = () => {
                   <button type="submit" className="mt-6 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add to bag</button>
                 </form> */}
                 <p className="text-green-900">The product is available!</p>
-                <button className="mt-1 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" onClick={() => handleAddToCart({...product,cartQty:1})}>Add To Cart</button>
+                <button className="mt-1 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" onClick={() => handleAddToCart(product)}>Add To Cart</button>
                 <Link to="/" className="mt-1 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Back To Shop</Link>
               </section>
             </div>

@@ -1,4 +1,4 @@
-import { createSlice, current } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 import { CartProducts,Product } from '../../constants/modal';
 
 const initialState:CartProducts = {
@@ -12,8 +12,6 @@ const cartSlice = createSlice({
     initialState,
     reducers:{
         addToCart(state,action){
-            console.log(current(state));
-            
             const exsIndexProduct:number = state.cartproduct.findIndex((item) => item.id === action.payload.id);
             if (exsIndexProduct >= 0) {
                 state.cartproduct[exsIndexProduct] = {
@@ -23,7 +21,7 @@ const cartSlice = createSlice({
             }else{
                 const tepProduct:Product = {
                     ...action.payload,
-                    cartQty:action.payload.cartQty
+                    cartQty:1
                 }
                 state.cartproduct.push(tepProduct);
             }
@@ -45,8 +43,12 @@ const cartSlice = createSlice({
             state.cartTotalQty = qty;
             state.cartTotalAmount = total;
         },
-        decreaseNumProduct(state,action){
-            //
+        decreamentNumProduct(state,action){
+            const productIndex = state.cartproduct.findIndex(item => item.id === action.payload.id);
+            const updatedProduct = {...action.payload};
+            if (updatedProduct.cartQty > 1) updatedProduct.cartQty -= 1;
+            state.cartproduct[productIndex] = updatedProduct;
+            localStorage.setItem("cartProduct",JSON.stringify(state.cartproduct));
         },
         deletFromCart(state,action){
             const newCartProduct = state.cartproduct.filter(item => item.id !== action.payload);
@@ -56,5 +58,5 @@ const cartSlice = createSlice({
     }
 })
 
-export const {addToCart,computedTotal,deletFromCart,decreaseNumProduct} = cartSlice.actions;
+export const {addToCart,computedTotal,deletFromCart,decreamentNumProduct} = cartSlice.actions;
 export default cartSlice.reducer;

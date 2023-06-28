@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import { useAppDispatch, useAppSelector } from "../hooks/customHooks";
 import { Product } from "../constants/modal";
-import { addToCart, computedTotal, deletFromCart, decreaseNumProduct } from "../redux/reduxReducer/cartSlice";
+import { addToCart, computedTotal, deletFromCart, decreamentNumProduct } from "../redux/reduxReducer/cartSlice";
 import { useEffect } from "react";
 
 const Cart = () => {
@@ -20,7 +20,7 @@ const Cart = () => {
         dispatch(addToCart(item))
     }
     const handleDecreaseProNumber = (item:Product):void => {
-        dispatch(decreaseNumProduct(item))
+        dispatch(decreamentNumProduct(item))
     }
 
     console.log("cartproduct: ",cartproduct);
@@ -57,7 +57,7 @@ const Cart = () => {
                                             <td>{index + 1}</td>
                                             <td>{item.title}</td>
                                             <td><img src={`http://localhost:9000/images/${item.sticker}`} alt="" className="w-24 h-24"/></td>
-                                            <td><button className="w-10 bg-slate-600 rounded-sm text-white" onClick={() => handleDecreaseProNumber(item)}>-</button><input type="text" value={item.cartQty} onChange={() => {
+                                            <td><button className="w-10 bg-slate-600 rounded-sm text-white" onClick={() => handleDecreaseProNumber(item)}>-</button><input type="text" value={item.cartQty > 0 ? item.cartQty : 1} onChange={() => {
                                                 //
                                             }} className="w-10 text-center" readOnly /><button className="w-10 bg-slate-600 rounded-sm text-white" onClick={() => handleIncreaseProNumber(item)}>+</button></td>
                                             <td>{item.price * item.cartQty}</td>
