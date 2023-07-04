@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
 import App from "../App";
 import NotFound from "../components/NotFound";
-import MainLayout from "../../layout/MainLayout";
+import MainLayout from "../layout/MainLayout";
 import ProductDetails from "../components/ProductDetails";
 import Cart from "../components/Cart";
 

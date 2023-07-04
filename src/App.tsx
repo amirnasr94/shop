@@ -1,5 +1,5 @@
 import {Helmet} from "react-helmet";
-import MainLayout from "../layout/MainLayout"
+import MainLayout from "./layout/MainLayout"
 import Shop from "./components/Shop";
 
 const App = () => {
