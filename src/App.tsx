@@ -1,6 +1,5 @@
 import {Helmet} from "react-helmet";
 import MainLayout from "../layout/MainLayout"
-import ShopHeader from "./components/ShopHeader";
 import Shop from "./components/Shop";
 
 const App = () => {
@@ -10,7 +9,6 @@ const App = () => {
         <Helmet>
           <title>Shop</title>
         </Helmet>
-        <ShopHeader/>
         <Shop/>
       </MainLayout>
     </>

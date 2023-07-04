@@ -8,8 +8,10 @@ interface Props{
 const MainLayout:FC<Props> = ({children}) => {
   return (
     <div className="w-full h-full flex flex-col min-h-screen">
-        <Navbar/>
-        <main className="w-full h-full">{children}</main>
+        <main className="w-full h-full">
+          <Navbar/>
+          {children}
+        </main>
     </div>
   )
 }
