@@ -1,14 +1,17 @@
 import {FC} from "react";
 import { Product } from "../constants/modal";
+import { Link } from "react-router-dom";
+import removeIcon from "../assets/images/remove_icon.svg";
 
 interface Props{
     show:boolean,
-    handleShowSidebar:() =>void,
     carts:Product[];
-
+    handleShowSidebar:() =>void,
+    handleRemoveProduct:(proId:string) =>void,
 }
 
-const CartSidebar:FC<Props> = ({show,handleShowSidebar,carts}) => {
+const CartSidebar:FC<Props> = ({show,handleShowSidebar,carts,handleRemoveProduct}) => {
+
   return (
     <div className={`relative z-10 ${show ? "block" : "hidden"}`} aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
         <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"  onClick={handleShowSidebar}></div>
@@ -30,18 +33,22 @@ const CartSidebar:FC<Props> = ({show,handleShowSidebar,carts}) => {
                         <h2 className="text-base font-semibold leading-6 text-gray-900" id="slide-over-title">Cart</h2>
                         </div>
                         <div className="relative mt-6 flex-1 px-4 sm:px-6">
-                            {carts.map(item => (
-                                <div key={item.id} className="w-full flex flex-row-reverse items-center text-clip shadow-sm rounded-sm p-2 mb-2">
+                            {carts.length === 0 ? (
+                                <div className="text-center">
+                                    <h3 className="text-lg font-bold">Cart is Empty!</h3>
+                                </div>
+                            ) : (carts.map(item => (
+                                <div key={item.id} className="w-full flex flex-row-reverse items-center text-clip shadow-sm rounded-sm p-2 mb-2 product-in-cartsidebar" id={item.id}>
                                     <div className="w-1/4">
                                         <img src={`http://localhost:9000/images/${item.sticker}`} alt="" className="w-20 h-20 rounded-sm shadow-md"/>
                                     </div>
                                     <div className="w-1/2">{item.title}</div>
-                                    <div className="w-1/4">x<img src="" alt="" /></div>
+                                    <div className="w-1/4"><img src={removeIcon} alt="remove-icon" className="w-5 transition ease-in-out hover:hover:-translate-y-1 cursor-pointer" onClick={() => {handleRemoveProduct(item.id)}} /></div>
                                 </div>
-                            ))}
+                            )))}
                         </div>
                         <div className="relative mt-3 px-3">
-                            <button className="w-full p-4 bg-slate-600 text-white text-center rounded-lg">Cart checkout</button>
+                            <Link to={carts.length === 0 ? "" : "/cart"} className="w-full p-4 inline-block bg-slate-500 text-white text-center rounded-lg transition ease-in-out hover:bg-slate-700">Cart checkout</Link>
                         </div>
                     </div>
                 </div>
