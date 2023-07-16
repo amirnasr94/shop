@@ -1,0 +1,312 @@
+{
+    "laptop":[
+        {
+            "id":1,
+            "name":"Asus TUF Gaming F15 FX506HC-i5 16GB 512SSD RTX3050 15.6 Inch Laptop",
+            "image":"",
+            "description":"ASUS TUF series laptops have always been one of the main choices of gamers and video game enthusiasts due to their high build quality and attractive design.",
+            "extra-description":"Asus TUF Gaming F15 FX506HC laptop model is one of the laptops of this brand that, due to its NVIDIA GeForce RTX 3050 graphics processor with four gigabytes of dedicated memory and a 1080p screen with a 144 Hz refresh rate, can be an ideal option for experiencing be video games. This laptop has a Core i5 11400H central processor with 6 cores, 12 threads, a final frequency of 4.5 GHz and a cache memory of 12 MB. It can perform very well in heavy processing. Also, 16 GB of DDR4 RAM with a speed of 3200 MHz is intended for this laptop, which can be upgraded to 32 GB if needed. It goes without saying that the 512 GB PCIe NVMe SSD storage memory of this laptop can guarantee its very high speed. This laptop has been customized by the importing company and some of its specifications have been upgraded.",
+            "properties":[
+                {"CPU series":"Core i5"},
+                {"Capacity of RAM memory":"16 GB"},
+                {"Capacity of internal memory":"512 GB"},
+                {"GPU manufacturer":"NVIDIA"},
+                {"Screen accuracy":"1080 x 1920 pixels - Full HD"},
+                {"Categorize":"Special for the game"}
+            ],
+            "price":1200,
+            "color":["black"],
+            "specification":[
+                {"Weight":"2.3 kg"},
+                {"Dimensions":"24.5 x 256 x 359 mm"},
+                {"CPU series":"Core i5"},
+                {"CPU model":"11400H"},
+                {"RAM memory capacity":"16 GB"},
+                {"RAM type":"DDR4"},
+                {"Internal memory capacity":"512 GB"},
+                {"Internal memory type":"SSD"},
+                {"GPU model":"GeForce RTX 3050"},
+                {"GPU dedicated memory":"4 GB"},
+                {"Battery description":"Three cells with a capacity of 48 watt hours"},
+                {"Battery charging":"1 to 3 hours"}
+            ],
+            "stock":6,
+            "comments":[
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Asus Vivobook E410MA-BV1517 14 inch laptop",
+            "image":"",
+            "description":"Vivobook E410MA-BV1517 laptop is one of the popular products of Asus company and its beautiful design can easily attract the positive opinion of buyers.",
+            "extra-description":"Despite its affordable price, this laptop is designed in such a way that it gives the feeling of using a high-end product with many features. The body of this laptop is 18 mm thick and its total weight is 1.3 kg, so it can be easily transported. For this laptop, a 14-inch screen with HD resolution has been considered, which according to the dimensions of the screen, it can be claimed that images with good details are displayed through it. Among the salient features of this laptop, we can mention various ports as well as a digital namepad that is placed on its touchpad and gives a special effect to its appearance. This laptop has been customized by the importing company and some of its specifications have been upgraded. Celeron model N4020 central processor, integrated graphics processor UHD Graphics 600 and four gigabytes of RAM make up the hardware set of this laptop, which is considered good for daily use.",
+            "properties":[
+                {"CPU series":"Celeron"},
+                {"Capacity of RAM memory":"4 GB"},
+                {"Capacity of internal memory":"256 GB"},
+                {"GPU manufacturer":"Intel"},
+                {"Screen accuracy":"HD|1366x768"},
+                {"Categorize":"Public use"}
+            ],
+            "price":800,
+            "color":["black"],
+            "specification":[
+                {"Weight":"1.3 kg"},
+                {"Dimensions":"18 x 217 x 325 mm"},
+                {"CPU series":"Celeron"},
+                {"CPU model":"N4020"},
+                {"RAM memory capacity":"4 GB"},
+                {"RAM type":"DDR4"},
+                {"Internal memory capacity":"246 GB"},
+                {"Internal memory type":"SSD"},
+                {"GPU model":"UHD Graphics 600"},
+                {"GPU dedicated memory":"No dedicated graphics memory"},
+                {"Battery description":"Three cells with a capacity of 42 watt hours"},
+                {"Battery charging":"2 to 4 hours"}
+            ],
+            "stock":6,
+            "comments":[
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Asus X515JP-EJ408-i7 16GB 1SSD MX330 15.6 Inch Laptop",
+            "image":"",
+            "description":"Asus X515JP-EJ408 laptop is considered as one of the best-selling mid-range products for daily affairs of this company.",
+            "extra-description":"This laptop is equipped with a powerful Core i7 1065G7/BGA processor with four cores and an increased frequency of 3.9 GHz, and this processor will have an acceptable performance in heavy processing. 16 GB of DDR4 type RAM memory of this laptop guarantees its acceptable speed in doing various tasks, and a terabyte of SSD storage memory intended for it can provide its owners with significant capacity and speed. It goes without saying that Asus has used a 15.6-inch IPS display with 1080p resolution for this laptop. Also, the graphics processor of this laptop, i.e. GeForce MX330, with a dedicated capacity of two gigabytes, can perform various graphics processing at an acceptable speed. This laptop has been customized by the importing company and some of its specifications have been upgraded.",
+            "properties":[
+                {"CPU series":"Core i7"},
+                {"Capacity of RAM memory":"16 GB"},
+                {"Capacity of internal memory":"1 TB"},
+                {"GPU manufacturer":"NVIDIA"},
+                {"Screen accuracy":"1080 x 1920 pixels - Full HD"},
+                {"Categorize":"Public use"}
+            ],
+            "price":800,
+            "color":["Silver"],
+            "specification":[
+                {"Weight":"1.8 kg"},
+                {"Dimensions":"360x235x20 mm"},
+                {"CPU series":"Core i7"},
+                {"CPU model":"1065G7"},
+                {"RAM memory capacity":"16 GB"},
+                {"RAM type":"DDR4"},
+                {"Internal memory capacity":"1 TB"},
+                {"Internal memory type":"SSD"},
+                {"GPU model":"GeForce MX330"},
+                {"GPU dedicated memory":"2 GB"},
+                {"Battery description":"Two cells with a capacity of 37 Wh"},
+                {"Battery charging":"1 to 2 hours"}
+            ],
+            "stock":2,
+            "comments":[
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":"Asus ROG Strix G17 G713RM-KH071 17.3 inch laptop",
+            "image":"",
+            "description":"The Asus ROG series laptops are known as the high-end and powerful gaming laptops of this company, along with the TUF series gaming laptops.",
+            "extra-description":"ASUS ROG series laptops, in addition to using technical specifications and powerful hardware, are also very attractive in terms of design. In fact, the unique design of these products is one of the most important characteristics of ROG series laptops and distinguishes them from other laptops of this company and even other companies. The use of RGB lighting in the keyboard and body of these laptops gives a very beautiful effect to its appearance. The ROG Strix G17 G713RM-KH071 laptop is considered to be the newest ROG series laptop by Asus company, using all the mentioned features. This laptop weighs 2.9 kg and features a large and beautiful ROG logo and a simple matte design with dot patterns. Also, the RGB strip embedded in the side parts of the laptop and the keyboard gives a very beautiful effect to its appearance. For this laptop, Asus has used a 17.3-inch matte IPS display with a resolution of 1920 x 1080 or FULL HD. In addition to this beautiful design, the specifications and powerful hardware capabilities of this laptop cannot be ignored.",
+            "properties":[
+                {"CPU series":"Ryzen 9"},
+                {"Capacity of RAM memory":"16 GB"},
+                {"Capacity of internal memory":"1 TB"},
+                {"GPU manufacturer":"NVIDIA"},
+                {"Screen accuracy":"1080 x 1920 pixels - Full HD"},
+                {"Categorize":"for the game"}
+            ],
+            "price":800,
+            "color":["Gray"],
+            "specification":[
+                {"Weight":"2.9 kg"},
+                {"Dimensions":"395x282x28.3 mm"},
+                {"CPU series":"Ryzen 9"},
+                {"CPU model":"6900HX"},
+                {"RAM memory capacity":"16 GB"},
+                {"RAM type":"DDR5"},
+                {"Internal memory capacity":"1 TB"},
+                {"Internal memory type":"SSD"},
+                {"GPU model":"GeForce RTX 3060"},
+                {"GPU dedicated memory":"6 GB"},
+                {"Battery description":"Four cells with a capacity of 90 watt hours"},
+                {"Battery charging":"2 to 4 hours"}
+            ],
+            "stock":10,
+            "comments":[
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "name":"Asus R1502ZA-BQ762 15.6 inch Laptop",
+            "image":"",
+            "description":"R1502ZA-BQ762 laptop is from Asus laptop series. This laptop is 15.6 inches. It weighs 1.7 kg and its dimensions are 19.9 x 232.5 x 359.7 mm.",
+            "extra-description":"The back frame of the laptop is made of high-quality plastic, which, in addition to the desired strength, also helps to lighten the weight of the laptop. The manufacturer of this laptop processor is Intel Core i3 series and its model will be 1215U. This laptop has 10 MB of cache memory. It has 4 GB of DDR4 RAM. This laptop has 256 GB SSD as internal memory. The manufacturer of the graphics processor of this laptop is Intel and its model is UHD Graphics. In general, it can be said that the Asus Vivobook series is designed for those customers who consider light and reasonably priced laptops suitable for them.",
+            "properties":[
+                {"CPU series":"Core i3"},
+                {"Capacity of RAM memory":"4 GB"},
+                {"Capacity of internal memory":"256 GB"},
+                {"GPU manufacturer":"Intel"},
+                {"Screen accuracy":"Full HD| 1920 x1080"},
+                {"Categorize":"Public use"}
+            ],
+            "price":800,
+            "color":["Silver","LightBlue"],
+            "specification":[
+                {"Weight":"1.7 kg"},
+                {"Dimensions":"359.7x232.5x19.9 mm"},
+                {"CPU series":"Core i3"},
+                {"CPU model":"1215 U"},
+                {"RAM memory capacity":"4 GB"},
+                {"RAM type":"DDR4"},
+                {"Internal memory capacity":"4 GB"},
+                {"Internal memory type":"SSD"},
+                {"GPU model":"Intel UHD Graphics"},
+                {"GPU dedicated memory":"No dedicated graphics memory"},
+                {"Battery description":"Three cells with a capacity of 42 watt hours"},
+                {"Battery charging":"1 to 3 hours"}
+            ],
+            "stock":3,
+            "comments":[
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                },
+                {
+                    "name":"Shop User",
+                    "title":"Lorem ipsum",
+                    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi",
+                    "date":"2023-07-10T07:22:35.480Z"
+                }
+            ]
+        }
+    ]
+}
