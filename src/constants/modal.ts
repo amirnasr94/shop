@@ -1,11 +1,18 @@
 import { store } from "../redux/reduxStore/store"
 
 export type Product = {
-    id:string,
-    title:string,
-    price:number,
+    id:number,
+    name:string,
+    image:string,
     description:string,
-    sticker:string,
+    extra_description:string,
+    properties:object[],
+    price:number,
+    color:string[],
+    score:number,
+    specification:object[],
+    stock:number,
+    comments:object[]
     cartQty:number
 }
 
