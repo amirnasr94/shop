@@ -33,7 +33,9 @@
             "title": "استیکر لینوکس Arch",
             "price": 3000,
             "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",
-            "sticker": "Arch-linux.jpg"
+            "sticker": "Arch-linux.jpg",
+            "properties":["CPU series:Core i5","Capacity of RAM memory:16 GB","Capacity of internal memory:512 GB","GPU manufacturer:NVIDIA","Screen accuracy:1080 x 1920 pixels - Full HD","Categorize:Special for the game"],
+
         },
         {
             "id": "06",
