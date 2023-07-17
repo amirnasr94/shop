@@ -1,10 +1,10 @@
-import {createSlice,createAsyncThunk,createEntityAdapter,EntityState} from "@reduxjs/toolkit";
+import {createSlice,createAsyncThunk,createEntityAdapter,EntityState, Slice} from "@reduxjs/toolkit";
 import { Product,ProductTools, RootState } from "../../constants/modal";
 import axios from "axios";
 
-export const fetchProduct = createAsyncThunk("products/fetchProduct",async () => {
+export const fetchProduct = createAsyncThunk<Product[]>("products/fetchProduct",async () => {
     try {
-        const {data} = await axios.get("http://localhost:9000/stickers/")
+        const {data} = await axios.get("http://localhost:9000/laptop/");
         return data;
     } catch (error) {
         console.error(error);
@@ -15,7 +15,7 @@ export const fetchProduct = createAsyncThunk("products/fetchProduct",async () =>
 
 const productAdaptor = createEntityAdapter<Product>({
     selectId: (product) => product.id,
-    sortComparer:(a,b) => b.title.localeCompare(a.title)
+    sortComparer:(a,b) => b.name.localeCompare(a.name)
 });
 
 const initialState:EntityState<Product> & ProductTools = productAdaptor.getInitialState({
@@ -23,7 +23,7 @@ const initialState:EntityState<Product> & ProductTools = productAdaptor.getIniti
     error:""
 })
 
-const productsSlice = createSlice({
+const productsSlice:Slice<EntityState<Product> & ProductTools> = createSlice({
     name:"products",
     initialState,
     reducers:{},
