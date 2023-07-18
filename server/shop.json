@@ -70,7 +70,7 @@
             "name":"Asus Vivobook E410MA-BV1517 14 inch laptop",
             "image":"Asus Vivobook E410MA-BV1517 14 inch laptop.jpg",
             "description":"Vivobook E410MA-BV1517 laptop is one of the popular products of Asus company and its beautiful design can easily attract the positive opinion of buyers.",
-            "extra-description":"Despite its affordable price, this laptop is designed in such a way that it gives the feeling of using a high-end product with many features. The body of this laptop is 18 mm thick and its total weight is 1.3 kg, so it can be easily transported. For this laptop, a 14-inch screen with HD resolution has been considered, which according to the dimensions of the screen, it can be claimed that images with good details are displayed through it. Among the salient features of this laptop, we can mention various ports as well as a digital namepad that is placed on its touchpad and gives a special effect to its appearance. This laptop has been customized by the importing company and some of its specifications have been upgraded. Celeron model N4020 central processor, integrated graphics processor UHD Graphics 600 and four gigabytes of RAM make up the hardware set of this laptop, which is considered good for daily use.",
+            "extra_description":"Despite its affordable price, this laptop is designed in such a way that it gives the feeling of using a high-end product with many features. The body of this laptop is 18 mm thick and its total weight is 1.3 kg, so it can be easily transported. For this laptop, a 14-inch screen with HD resolution has been considered, which according to the dimensions of the screen, it can be claimed that images with good details are displayed through it. Among the salient features of this laptop, we can mention various ports as well as a digital namepad that is placed on its touchpad and gives a special effect to its appearance. This laptop has been customized by the importing company and some of its specifications have been upgraded. Celeron model N4020 central processor, integrated graphics processor UHD Graphics 600 and four gigabytes of RAM make up the hardware set of this laptop, which is considered good for daily use.",
             "properties":[
                 {"CPU series":"Celeron"},
                 {"Capacity of RAM memory":"4 GB"},
@@ -123,7 +123,7 @@
             "name":"Asus X515JP-EJ408-i7 16GB 1SSD MX330 15.6 Inch Laptop",
             "image":"Asus X515JP-EJ408-i7 16GB 1SSD MX330 15.6 Inch Laptop.jpg",
             "description":"Asus X515JP-EJ408 laptop is considered as one of the best-selling mid-range products for daily affairs of this company.",
-            "extra-description":"This laptop is equipped with a powerful Core i7 1065G7/BGA processor with four cores and an increased frequency of 3.9 GHz, and this processor will have an acceptable performance in heavy processing. 16 GB of DDR4 type RAM memory of this laptop guarantees its acceptable speed in doing various tasks, and a terabyte of SSD storage memory intended for it can provide its owners with significant capacity and speed. It goes without saying that Asus has used a 15.6-inch IPS display with 1080p resolution for this laptop. Also, the graphics processor of this laptop, i.e. GeForce MX330, with a dedicated capacity of two gigabytes, can perform various graphics processing at an acceptable speed. This laptop has been customized by the importing company and some of its specifications have been upgraded.",
+            "extra_description":"This laptop is equipped with a powerful Core i7 1065G7/BGA processor with four cores and an increased frequency of 3.9 GHz, and this processor will have an acceptable performance in heavy processing. 16 GB of DDR4 type RAM memory of this laptop guarantees its acceptable speed in doing various tasks, and a terabyte of SSD storage memory intended for it can provide its owners with significant capacity and speed. It goes without saying that Asus has used a 15.6-inch IPS display with 1080p resolution for this laptop. Also, the graphics processor of this laptop, i.e. GeForce MX330, with a dedicated capacity of two gigabytes, can perform various graphics processing at an acceptable speed. This laptop has been customized by the importing company and some of its specifications have been upgraded.",
             "properties":[
                 {"CPU series":"Core i7"},
                 {"Capacity of RAM memory":"16 GB"},
@@ -133,7 +133,7 @@
                 {"Categorize":"Public use"}
             ],
             "price":800,
-            "color":["Silver"],
+            "color":["gray-500"],
             "score":4,
             "specification":[
                 {"Weight":"1.8 kg"},
@@ -182,7 +182,7 @@
             "name":"Asus ROG Strix G17 G713RM-KH071 17.3 inch laptop",
             "image":"Asus ROG Strix G17 G713RM-KH071 17.3 inch laptop.jpg",
             "description":"The Asus ROG series laptops are known as the high-end and powerful gaming laptops of this company, along with the TUF series gaming laptops.",
-            "extra-description":"ASUS ROG series laptops, in addition to using technical specifications and powerful hardware, are also very attractive in terms of design. In fact, the unique design of these products is one of the most important characteristics of ROG series laptops and distinguishes them from other laptops of this company and even other companies. The use of RGB lighting in the keyboard and body of these laptops gives a very beautiful effect to its appearance. The ROG Strix G17 G713RM-KH071 laptop is considered to be the newest ROG series laptop by Asus company, using all the mentioned features. This laptop weighs 2.9 kg and features a large and beautiful ROG logo and a simple matte design with dot patterns. Also, the RGB strip embedded in the side parts of the laptop and the keyboard gives a very beautiful effect to its appearance. For this laptop, Asus has used a 17.3-inch matte IPS display with a resolution of 1920 x 1080 or FULL HD. In addition to this beautiful design, the specifications and powerful hardware capabilities of this laptop cannot be ignored.",
+            "extra_description":"ASUS ROG series laptops, in addition to using technical specifications and powerful hardware, are also very attractive in terms of design. In fact, the unique design of these products is one of the most important characteristics of ROG series laptops and distinguishes them from other laptops of this company and even other companies. The use of RGB lighting in the keyboard and body of these laptops gives a very beautiful effect to its appearance. The ROG Strix G17 G713RM-KH071 laptop is considered to be the newest ROG series laptop by Asus company, using all the mentioned features. This laptop weighs 2.9 kg and features a large and beautiful ROG logo and a simple matte design with dot patterns. Also, the RGB strip embedded in the side parts of the laptop and the keyboard gives a very beautiful effect to its appearance. For this laptop, Asus has used a 17.3-inch matte IPS display with a resolution of 1920 x 1080 or FULL HD. In addition to this beautiful design, the specifications and powerful hardware capabilities of this laptop cannot be ignored.",
             "properties":[
                 {"CPU series":"Ryzen 9"},
                 {"Capacity of RAM memory":"16 GB"},
@@ -192,7 +192,7 @@
                 {"Categorize":"for the game"}
             ],
             "price":800,
-            "color":["Gray"],
+            "color":["black"],
             "score":3.9,
             "specification":[
                 {"Weight":"2.9 kg"},
@@ -265,7 +265,7 @@
             "name":"Asus R1502ZA-BQ762 15.6 inch Laptop",
             "image":"Asus R1502ZA-BQ762 15.6 inch Laptop.jpg",
             "description":"R1502ZA-BQ762 laptop is from Asus laptop series. This laptop is 15.6 inches. It weighs 1.7 kg and its dimensions are 19.9 x 232.5 x 359.7 mm.",
-            "extra-description":"The back frame of the laptop is made of high-quality plastic, which, in addition to the desired strength, also helps to lighten the weight of the laptop. The manufacturer of this laptop processor is Intel Core i3 series and its model will be 1215U. This laptop has 10 MB of cache memory. It has 4 GB of DDR4 RAM. This laptop has 256 GB SSD as internal memory. The manufacturer of the graphics processor of this laptop is Intel and its model is UHD Graphics. In general, it can be said that the Asus Vivobook series is designed for those customers who consider light and reasonably priced laptops suitable for them.",
+            "extra_description":"The back frame of the laptop is made of high-quality plastic, which, in addition to the desired strength, also helps to lighten the weight of the laptop. The manufacturer of this laptop processor is Intel Core i3 series and its model will be 1215U. This laptop has 10 MB of cache memory. It has 4 GB of DDR4 RAM. This laptop has 256 GB SSD as internal memory. The manufacturer of the graphics processor of this laptop is Intel and its model is UHD Graphics. In general, it can be said that the Asus Vivobook series is designed for those customers who consider light and reasonably priced laptops suitable for them.",
             "properties":[
                 {"CPU series":"Core i3"},
                 {"Capacity of RAM memory":"4 GB"},
@@ -275,7 +275,7 @@
                 {"Categorize":"Public use"}
             ],
             "price":800,
-            "color":["Silver","LightBlue"],
+            "color":["black","slate-400"],
             "score":3.2,
             "specification":[
                 {"Weight":"1.7 kg"},

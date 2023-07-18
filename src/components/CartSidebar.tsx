@@ -7,7 +7,7 @@ interface Props{
     show:boolean,
     carts:Product[];
     handleShowSidebar:() =>void,
-    handleRemoveProduct:(proId:string) =>void,
+    handleRemoveProduct:(proId:number) =>void,
 }
 
 const CartSidebar:FC<Props> = ({show,handleShowSidebar,carts,handleRemoveProduct}) => {
@@ -23,8 +23,8 @@ const CartSidebar:FC<Props> = ({show,handleShowSidebar,carts,handleRemoveProduct
                     <div className="absolute left-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
                         <button type="button" className="rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white" onClick={handleShowSidebar}>
                         <span className="sr-only">Close panel</span>
-                        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                         </button>
                     </div>
@@ -38,11 +38,11 @@ const CartSidebar:FC<Props> = ({show,handleShowSidebar,carts,handleRemoveProduct
                                     <h3 className="text-lg font-bold">Cart is Empty!</h3>
                                 </div>
                             ) : (carts.map(item => (
-                                <div key={item.id} className="w-full flex flex-row-reverse items-center text-clip shadow-sm rounded-sm p-2 mb-2 product-in-cartsidebar" id={item.id}>
+                                <div key={item.id} className="w-full flex flex-row-reverse items-center text-clip shadow-sm rounded-sm p-2 mb-2 product-in-cartsidebar" id={item.id.toString()}>
                                     <div className="w-1/4">
-                                        <img src={`http://localhost:9000/images/${item.sticker}`} alt="" className="w-20 h-20 rounded-sm shadow-md"/>
+                                        <img src={`http://localhost:9000/images/${item.image}`} alt="" className="w-20 h-20 rounded-sm shadow-md"/>
                                     </div>
-                                    <div className="w-1/2">{item.title}</div>
+                                    <div className="w-1/2">{item.name}</div>
                                     <div className="w-1/4"><img src={removeIcon} alt="remove-icon" className="w-5 transition ease-in-out hover:hover:-translate-y-1 cursor-pointer" onClick={() => {handleRemoveProduct(item.id)}} /></div>
                                 </div>
                             )))}
