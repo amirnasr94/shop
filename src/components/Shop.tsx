@@ -1,5 +1,6 @@
 import { useAppSelector } from "../hooks/customHooks";
 import { selectAll } from "../redux/reduxReducer/productSlice"
+import SidebarWidget from "./SidebarWidget";
 import SingleProduct from "./SingleProduct";
 
 const Shop = () => {
@@ -10,8 +11,10 @@ const Shop = () => {
     <section className="w-full h-full">
         <div></div>
         <div className="flex">
-            <aside className="w-1/4 bg-slate-500">asd</aside>
-            <article className="w-3/4 bg-orange-300">
+            <aside className="w-1/4">
+                <SidebarWidget/>
+            </aside>
+            <article className="w-3/4">
                 {
                     status === "pending" ? (
                         <div>

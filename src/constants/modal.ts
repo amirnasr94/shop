@@ -12,7 +12,7 @@ export type Product = {
     score:number,
     specification:object[],
     stock:number,
-    comments:object[]
+    comments:object[],
     cartQty:number
 }
 
