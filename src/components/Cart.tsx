@@ -80,9 +80,9 @@ const Cart = () => {
                         <div className="w-1/2 mx-auto mt-11">
                             {cartproduct.map(item => (
                                 <div key={item.id} className="flex shadow-sm rounded-md bg-gray-200 mb-4 p-5 items-center text-center">
-                                    <div className="w-1/4"><img src={`http://localhost:9000/images/${item.sticker}`} alt={item.title} className="w-16 rounded-full mx-auto"/></div>
+                                    <div className="w-1/4"><img src={`http://localhost:9000/images/${item.image}`} alt={item.name} className="w-20 rounded-full mx-auto"/></div>
                                     <div className="w-1/4">
-                                        <p>{item.title}</p>
+                                        <p className="text-sm">{item.name}</p>
                                     </div>
                                     <div className="w-1/4 flex flex-row-reverse justify-center">
                                         <div>

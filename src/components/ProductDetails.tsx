@@ -8,6 +8,7 @@ import { Product } from "../constants/modal";
 import { addToCart } from "../redux/reduxReducer/cartSlice";
 import AdditionalDetails from './productExtra/AdditionalDetails';
 import TechnicalDetails from './productExtra/TechnicalDetails';
+import Comments from './productExtra/Comments';
 
 const ProductDetails = () => {
   const [showAdditionalDetails,setShowAdditionalDetails] = useState<boolean>(false);
@@ -31,7 +32,7 @@ const ProductDetails = () => {
           <Helmet>
             <title>{product.name}</title>
           </Helmet>
-          <article className="grid w-8/12 h-min items-center m-auto grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8">
+          <article className="grid w-8/12 h-min items-center m-auto sm:grid-cols-12 lg:gap-x-8 mb-4">
             <div className="aspect-h-3 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:col-span-4 lg:col-span-5">
               <img src={`http://localhost:9000/images/${product.image}`} alt="" className="object-cover object-center"/>
             </div>
@@ -67,6 +68,7 @@ const ProductDetails = () => {
           </article>
           <AdditionalDetails showAdditionalDetails={showAdditionalDetails} setShowAdditionalDetails={setShowAdditionalDetails} productExtraDescription={product.extra_description}/>
           <TechnicalDetails showTechnicalDeatils={showTechnicalDeatils} setShowTechnicalDeatils={setShowTechnicalDeatils} productSpecification={product.specification}/>
+          <Comments comments={product.comments}/>
         </>
       ) : (
         <div>Loading...</div>
